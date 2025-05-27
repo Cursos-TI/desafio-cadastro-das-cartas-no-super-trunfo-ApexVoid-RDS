@@ -7,20 +7,10 @@
 //Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     printf("Desafio Super Trunfo!\n");
+    printf("novo commit!\n");
 
-    // Variáveis para a Carta 1
     char estado1;
     char codigo1[4];
     char nomeCidade1[50];
@@ -29,7 +19,6 @@ int main() {
     float pib1;
     int pontosTuristicos1;
 
-    // Variáveis para a Carta 2
     char estado2;
     char codigo2[4];
     char nomeCidade2[50];
@@ -38,7 +27,6 @@ int main() {
     float pib2;
     int pontosTuristicos2;
 
-    // Cadastro da Carta 1
     printf("Cadastro da Carta 1:\n");
 
     printf("Informe o Estado (letra de A a H): ");
@@ -48,7 +36,7 @@ int main() {
     scanf("%s", codigo1);
 
     printf("Informe o Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade1);  // Lê string com espaço
+    scanf(" %[^\n]", nomeCidade1);
 
     printf("Informe a População: ");
     scanf("%d", &populacao1);
@@ -62,7 +50,7 @@ int main() {
     printf("Informe o Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    printf("\n");  // Quebra de linha
+    printf("\n"); 
 
     // Cadastro da Carta 2
     printf("Cadastro da Carta 2:\n");
@@ -74,7 +62,7 @@ int main() {
     scanf("%s", codigo2);
 
     printf("Informe o Nome da Cidade: ");
-    scanf(" %[^\n]", nomeCidade2);  // Lê string com espaço
+    scanf(" %[^\n]", nomeCidade2);  
 
     printf("Informe a População: ");
     scanf("%d", &populacao2);
@@ -88,9 +76,8 @@ int main() {
     printf("Informe o Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    printf("\n");  // Quebra de linha
+    printf("\n");  
 
-    // Exibição dos Dados da Carta 1
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
@@ -102,7 +89,6 @@ int main() {
 
     printf("\n");
 
-    // Exibição dos Dados da Carta 2
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
